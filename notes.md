@@ -3,6 +3,8 @@
 - Rob Dodson - Accessibility Lead at Google - check YouTube
 - WebAIM.org - Checklist for accessibility
   - All websites should be perceivable, operable, understandable, and robust
+- Course GitHub files - https://github.com/jkup/learn-a11y
+  - Navigate to index.html to see content and exercises
 
 ## Keyboard navigation
 
