@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Keyboard Navigation</title>
 
-    <link rel="stylesheet" href="../css/bootstrap.min.css" media="screen" charset="utf-8">
-    <link rel="stylesheet" href="../css/style.css" media="screen" charset="utf-8">
+    <link
+      rel="stylesheet"
+      href="../css/bootstrap.min.css"
+      media="screen"
+      charset="utf-8"
+    />
+    <link
+      rel="stylesheet"
+      href="../css/style.css"
+      media="screen"
+      charset="utf-8"
+    />
   </head>
   <body>
+    <a href="#main" id="skip-link">Skip to main navigation</a>
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -23,7 +40,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="../index.html"><span class="glyphicon glyphicon-arrow-left"></span> Back</a></li>
+            <li>
+              <a href="../index.html"
+                ><span class="glyphicon glyphicon-arrow-left"></span> Back</a
+              >
+            </li>
             <li><a href="#main">Assignment</a></li>
             <li><a href="#focus">Focus</a></li>
             <li><a href="#tabindex">Tabindex</a></li>
@@ -31,27 +52,38 @@
             <li><a href="#skip-links">Skip Links</a></li>
             <li><a href="#form">Forms</a></li>
           </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
     </nav>
 
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
-
         <main id="main">
           <h1>Welcome to our first exercise</h1>
 
           <h2>Fix these bugs:</h2>
           <ol>
-            <li>The form at the bottom can't be submitted with just your keyboard.</li>
-            <li>There is no "skip link" for getting right to the main content.</li>
+            <li>
+              The form at the bottom can't be submitted with just your keyboard.
+            </li>
+            <li>
+              There is no "skip link" for getting right to the main content.
+            </li>
           </ol>
         </main>
 
         <main id="focus">
           <h2>Focus</h2>
 
-          <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus">HTMLElement.focus</a> can be used to set focus on an element.</p>
+          <p>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus"
+              >HTMLElement.focus</a
+            >
+            can be used to set focus on an element.
+          </p>
         </main>
 
         <main id="tabindex">
@@ -62,16 +94,23 @@
           <ul>
             <li><b>-1</b> not in tab order, but it can be focused with JS</li>
             <li><b>0</b> in the natural tab order, and it can be focused</li>
-            <li><b>1+</b> anti-pattern but can be used to jump to the fron tof the tab order, higher number, higher position</li>
+            <li>
+              <b>1+</b> anti-pattern but can be used to jump to the fron tof the
+              tab order, higher number, higher position
+            </li>
           </ul>
         </main>
 
         <main id="tabbable-items">
           <h2>Tabbable Items</h2>
 
-          <p>There is a list of all focusable selectors on my <a href="https://github.com/jkup/focusable">focusable repo</a>. They are:
+          <p>
+            There is a list of all focusable selectors on my
+            <a href="https://github.com/jkup/focusable">focusable repo</a>. They
+            are:
+          </p>
 
-<pre><code>a[href],
+          <pre><code>a[href],
 area[href],
 input:not([disabled]),
 select:not([disabled]),
@@ -88,10 +127,13 @@ embed,
         <main id="skip-links">
           <h2>Skip Links</h2>
 
-          <p>Learn more about <a href="http://webaim.org/techniques/skipnav/">Skip Links</a> here.</p>
+          <p>
+            Learn more about
+            <a href="http://webaim.org/techniques/skipnav/">Skip Links</a> here.
+          </p>
 
           <h3>Your HTML</h3>
-<pre><code>&lt;a href="#maincontent" class="skip-link">
+          <pre><code>&lt;a href="#maincontent" class="skip-link">
   Skip to main content
 &lt;/a>
 
@@ -109,10 +151,30 @@ embed,
             <fieldset>
               <legend>Sign Up</legend>
 
-              <input type="text" class="form-control" id="first-name" placeholder="First Name">
-              <input type="text" class="form-control" id="last-name" placeholder="Last Name">
-              <input type="email" class="form-control" id="email" placeholder="Email">
-              <input type="password" class="form-control" id="password" placeholder="Password">
+              <input
+                type="text"
+                class="form-control"
+                id="first-name"
+                placeholder="First Name"
+              />
+              <input
+                type="text"
+                class="form-control"
+                id="last-name"
+                placeholder="Last Name"
+              />
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Email"
+              />
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                placeholder="Password"
+              />
               <span>Favorite Color</span>
               <select class="form-control">
                 <option>Red</option>
@@ -121,9 +183,9 @@ embed,
                 <option>Purple</option>
                 <option>Black</option>
               </select>
-              <input type="checkbox"> Remember me
-              <div class="btn btn-default">Cancel</div>
-              <div class="btn btn-primary">Submit</div>
+              <input type="checkbox" /> Remember me
+              <button class="btn btn-default">Cancel</button>
+              <input type="submit" value="submit" class="btn btn-primary" />
             </fieldset>
           </form>
         </main>

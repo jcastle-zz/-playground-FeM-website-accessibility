@@ -22,10 +22,26 @@
       - positive value - same as 0 with being reachable given hierarchy of element - often an anti-pattern like a z-index
   - Visible focus - visually apparent which page element has the current keyboard focus (i.e., as you tab through the page, you should see where you are)
   - Skip links - use as a class (see example - https://frontendmasters.com/courses/web-accessibility/skip-links/)
+  - Use buttons not divs or links - buttons tab-ble, can use space bar on them, have additional functionality
+    - Anchors can be tabbed but miss buttons things such as on key down
+  - Use section, article, etc. for better semantic meaning than div
 
 ## Focus control
 
+- Run this anytime in console to get currently focused element
+  - var currentElement = document.activeElement
+  - most common use case is when doing modal (a close up), you can save where some is and focuse back on where the user left off
+- Tabtrapping or focustrapping - grab all focusable children, listen for tab or shift tab, only do something if they go off edge of modal
+
 ## Working with screen readers
+
+- Screenreader programs - JAWS, ZoomText Mac, Window-Eyes, NVDA, VoiceOver, ChromeVox
+- Command F5 on Mac will turn on voice over
+- Image tag for audio and video - use alt tag for the screen reader, don't use "image of" or "graphic of", upper case read letter by letter, skip image for reader by using alt=''
+- Screen readers won't read with attributes display:none, visibility:hidden, <input hidden />
+- Use CSS to hide from screen but read to screen reader
+  - .screenreader { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+  - same approach used for skip to navigation
 
 ## Semantic HTML
 
