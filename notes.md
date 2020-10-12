@@ -5,6 +5,7 @@
   - All websites should be perceivable, operable, understandable, and robust
 - Course GitHub files - https://github.com/jkup/learn-a11y
   - Navigate to index.html to see content and exercises
+- Course slides - https://docs.google.com/presentation/d/1_CRR-bJFX5Xt-2Tx_lPMDSMUtoxe8s8kAF7DDDXVvc8/edit#slide=id.p
 
 ## Keyboard navigation
 
@@ -42,6 +43,8 @@
 - Use CSS to hide from screen but read to screen reader
   - .screenreader { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
   - same approach used for skip to navigation
+- Label - often used for input fields on forms
+- Aria-labelledby - can pass in multiple elements (e.g., aria-labelledby="billing address"), gets away from label, use this the most
 
 ## Semantic HTML
 
