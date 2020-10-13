@@ -61,5 +61,8 @@
 - aria-label and aria-describedby - use describedby for additional description
 - aria provides tools for clicking, expanding, hover, etc., can add icons as css
 - Live region - aria-live, aria-relevant - tells screen reader a certain area is updating
+- Chrome dev ARIA tools - chrome://flags
 
 ## Accessibility in color and design
+
+-
