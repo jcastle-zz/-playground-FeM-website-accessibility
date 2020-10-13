@@ -48,6 +48,18 @@
 
 ## Semantic HTML
 
+- Make sure language is always defined in HTML lang attribute - <html lang="en">
+- Language in sections of page that are different should be identified too - <blockquote lang="es">
+- Unknown words can be defined with glossary or definition list
+- Don't just use div, span, and img without proper labeling or extra content (e.g., alt text)
+- Elements have inherited functionality - headers should be used properly and style with CSS
+
 ## WAI-ARIA
+
+- ARIA - Accessible Rich Internet Applications
+- Role communicates to screen reader what the element represents
+- aria-label and aria-describedby - use describedby for additional description
+- aria provides tools for clicking, expanding, hover, etc., can add icons as css
+- Live region - aria-live, aria-relevant - tells screen reader a certain area is updating
 
 ## Accessibility in color and design
