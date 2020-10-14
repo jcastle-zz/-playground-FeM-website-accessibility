@@ -62,6 +62,8 @@
 - aria provides tools for clicking, expanding, hover, etc., can add icons as css
 - Live region - aria-live, aria-relevant - tells screen reader a certain area is updating
 - Chrome dev ARIA tools - chrome://flags
+- Accessibility tree - for content to be read out loud, it has to be in the tree (has something to do with dominos and loading content)
+- Can you use aria-live without aria-relevant? - not sure if it cascades or not - this advance use case
 
 ## Accessibility in color and design
 
