@@ -67,4 +67,17 @@
 
 ## Accessibility in color and design
 
--
+- Google plugin - NoCoffee vision simulator - tool for analyzing sites for those with vision impairments
+- accessibility.oit.ncsu.edu - site for accessibility - good for non-code stuff
+
+## Tools
+
+- Chrome - accessibility developer tools - low Lighthouse
+- tenon.io - test pieces of code or hook to api
+- tota11y - open source, needs install, shows issues on the UI
+- react-a11y - used with React as dependency, examines rendered code
+- W3C has WAI (Web Accessibility Initiative) publishes WCAG (Web Content Accessibility Guidelines)
+- SSB Bart Group & Deque both offer consulting services
+- Rob Dodson has a free class on Udacity
+- Global Accessibility Awareness Day, Accessibility Summit, Accessibility Camp DC (lots of good material on site)
+- CSUN Accessibility Conference
